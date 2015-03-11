@@ -98,7 +98,7 @@ line.name :: Human readable line name EG - "Union Pacific Northwest"
 line.url :: Url that the parser scrapes from.
 line.dir :: Symbol representing selected line direction. :outbound or :inbound. Set with Line#outbound Line#inbound or deduced using Line#from and Line#to
 line.sched :: Symbol representing selected line schedule. :weekday, :saturday or :sunday. Set with Line#weekday, Line#saturday Line#sunday Line#on(date) or Line#deduce_schedule
-line.start :: Symbol representing starting station name. EG - :clyborn. Set with Line#from
+line.start :: Symbol representing starting station name. EG - :clybourn. Set with Line#from
 line.destination :: Symbol representing destanation station name. EG - :ogilve. Set with Line#to
 line.time :: Time object representing the time you'd like to depart. Used to filter down lines. Set with Line#at
 
@@ -131,7 +131,7 @@ Current supported lines:
 stations: 
   
   :ogilve,
-  :clyborn,
+  :clybourn,
   :irving_park,
   :jefferson_park,
   :gladstone_park,
@@ -160,7 +160,7 @@ stations:
 stations: 
 
   :ogilve,
-  :clyborn,
+  :clybourn,
   :ravenswood,
   :rogers_park,
   :evanston_main_street,

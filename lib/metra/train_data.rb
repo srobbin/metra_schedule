@@ -9,7 +9,7 @@ module MetraSchedule
       :url => 'http://metrarail.com/metra/en/home/maps_schedules/metra_system_map/up-nw/schedule.full.html',
       :stations => [
         :ogilve,
-        :clyborn,
+        :clybourn,
         :irving_park,
         :jefferson_park,
         :gladstone_park,
@@ -40,7 +40,7 @@ module MetraSchedule
       :url => 'http://metrarail.com/metra/en/home/maps_schedules/metra_system_map/up-n/schedule.full.html',
       :stations => [
         :ogilve,
-        :clyborn,
+        :clybourn,
         :ravenswood,
         :rogers_park,
         :evanston_main_street,
