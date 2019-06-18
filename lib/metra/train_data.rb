@@ -37,7 +37,7 @@ module MetraSchedule
     },
     :up_n => {
       :name => "Union Pacific North",
-      :url => 'http://srobbin.com/metra/up-n/schedule.full.html',
+      :url => 'https://srobbin.com/metra/up-n/schedule.full.html',
       :stations => [
         :ogilve,
         :clybourn,
